@@ -331,3 +331,165 @@ if(son > 100 && son < 200) {
     console.log("ideal qiymat");
 }
 
+
+       // Qo'shimcha gruppada berilgan masalalar.
+
+// 51. Berilgan son 50 dan kichik yoki 100 dan katta ekanligini tekshiring.
+if(son < 50 || son > 100) {
+    console.log("shart bajarildi");
+}
+
+// 52. Foydalanuvchi kiritgan son musbat va 5 ga bo‘linadigan bo‘lsa, "mos" deb chiqaring.
+if(son > 0 && son % 5 == 0) {
+    console.log("mos");
+}
+
+// 53. Son juft yoki toq ekanligini tekshirish bilan birga, juft bo‘lsa "juft", toq bo‘lsa "toq" deb chiqaring.
+if(son % 2 == 0) {
+    console.log("juft");
+} else {
+    console.log('toq');
+}
+
+// 54. Kiritilgan son 25 va 75 orasida bo‘lsa, "oraliqda" deb chiqaring.
+if(son > 25 && son < 75) {
+    console.log("oraliqda");
+}
+
+// 55. Harorat 0 dan past va 30 dan katta bo‘lsa, "noto‘g‘ri qiymat" deb chiqaring.
+if(harorat < 0 || harorat > 30) {
+    console.log("notogri qiymat");
+}
+
+// 56. Haftaning kun raqami 1 yoki 7 bo‘lsa, dam olish kuni ekanligini aniqlang
+if(kun == 1 || kun == 7) {
+    console.log("dam olish kuni");
+}
+
+// 57. Berilgan ikki sonning yig‘indisi 50 dan katta bo‘lsa, "yig‘indi katta" deb chiqaring.
+if(son + son1 > 50) {
+    console.log("yigindi katta");
+}
+
+// 58. Son faqat musbat yoki nol bo‘lsa, "to‘g‘ri" deb chiqaring.
+if(son >= 0) {
+    console.log("togri");
+}
+
+// 59. Baholar 0 va 100 orasida ekanligini tekshiring.
+let baho
+if(baho >= 0 && baho <= 100) {
+    console.log("oraliqda");
+} 
+
+// 60. Foydalanuvchi kiritgan son juft va 10 ga bo‘linadigan bo‘lsa, "mos" deb chiqaring.
+if(son % 2 == 0 && son % 10 == 0) {
+    console.log("mos");
+}
+
+// 61. Narx 0 dan katta bo‘lsa, "to‘g‘ri narx" deb chiqaring.
+let narx
+if(narx > 0) {
+    console.log("togri narx");
+}
+
+// 62. Harorat -50 dan 50 orasida bo‘lsa, "muloqot" deb chiqaring.
+if(harorat > -50 && harorat < 50) {
+    console.log("muloqot");
+}
+
+// 63. Son faqat 7 ga bo‘linadigan bo‘lsa, "7 ko‘pkarasi" deb chiqaring.
+if(son % 7 == 0) {
+    console.log("yetti ko'p karrasi");
+}
+
+// 64. Son musbat, 3 ga va 5 ga bo‘linadigan bo‘lsa, "FizzBuzz" deb chiqaring.
+if(son > 0 && son % 3 == 0 && son % 5 == 0) {
+    console.log("FizzBuzz");
+}
+
+// 65. Kun raqami hafta kunlarining oxiri (7) ekanligini aniqlang.
+if(kun == 7) {
+    console.log("oxirgi kun");
+}
+
+// 66. Yilning ilk uch oyi ichida joylashgan oy ekanligini tekshiring.
+if(oy == 'yanvar' || oy == 'fevral' || oy == 'mart') {
+    console.log("yilning ilk uch oyidan biri");
+}
+
+// 67. Son 0 va 10 orasida bo‘lsa, "oraliqda" deb chiqaring.
+if(son > 0 && son < 10) {
+    console.log("oraliqda");
+}
+
+// 68. Haftaning kun raqami 1 dan 5 gacha bo‘lsa, ish kuni ekanligini aniqlang.
+if (kun >= 1 && kun < 6) {
+    console.log('ish kuni');
+}
+
+// 69. Foydalanuvchi yoshini 18 dan katta yoki teng ekanligini tekshiring
+if(yosh >= 18) {
+    console.log("tekshirildi");
+}
+
+// 70. Kiritilgan ikki sonning bir xil yoki turlicha ekanligini aniqlang.
+if(son == son1) {
+    console.log("bir xil");
+} else {
+    console.log("turlicha");
+}
+
+// 71. Baholar 90 dan yuqori bo‘lsa, "a'lo" deb chiqaring.
+if(baho > 90) {
+    console.log("a'lo");
+}
+
+// 72. Yil fasli bahor yoki yoz ekanligini aniqlang.
+if(fasl == 'bahor' || fasl == 'yoz') {
+    console.log("bahor yoki yoz");
+}
+
+// 73. Son 3 ning ko‘pkarasi yoki toq ekanligini aniqlang.
+if(son % 3 == 0 || son % 2 == 1) {
+    console.log("bajarildi");
+}
+
+// 74. Foydalanuvchi ismi "admin" bo‘lsa, "xush kelibsiz" deb chiqaring.
+let ism = 'admin'
+if(ism == 'admin') {
+    console.log("Xush kelibsiz");
+}
+
+// 75. Kiritilgan qiymat 0 dan katta yoki 100 dan kichik bo‘lsa, "yaroqli" deb chiqaring.
+if(son > 0 || son < 100) {   // faqat true qaytaradi. && ishlatish kerak oraliqni olish kerak. lekin shartda yoki degan.
+    console.log("yaroqli");
+}
+
+// 76. Son faqat musbat bo‘lsa va 100 dan kichik bo‘lsa, "to‘g‘ri" deb chiqaring.
+if(son > 0  && son < 100) {
+    console.log("togri");
+}
+
+// 77. Harorat 10 dan past yoki 30 dan yuqori bo‘lsa, "noto‘g‘ri qiymat" deb chiqaring.
+if(harorat < 10 || harorat > 30) {
+    console.log("notogri qiymat");
+}
+
+// 78. Foydalanuvchi yoshini 0 dan katta va 120 dan kichik ekanligini tekshiring.
+if(yosh > 0 && yosh < 120) {
+    console.log("tekshrildi");
+}
+
+// 79. Son manfiy yoki 50 dan katta bo‘lsa, "mos emas" deb chiqaring.
+if(son < 0 || son > 50) {
+    console.log("mos emas");
+}
+
+// 80. Kiritilgan oy raqami fevral bo‘lsa, "maxsus oy" deb chiqaring.
+let oyNum = 2
+if(oyNum == 2) {
+    console.log("maxsus oy");
+}
+      
+                      // tugadi:    03.02.2025  22:59
